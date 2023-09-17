@@ -21,7 +21,8 @@ export default async function Index() {
 }
 
 async function getLevels(): Promise<Level[]> {
-  const res = await fetch('http://localhost:3000/api/levels');
+  const res = await fetch(`http://localhost:3000/api/levels`);
   const levels = (await res.json()) as Level[];
+  console.log(levels);
   return levels;
 }

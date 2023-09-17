@@ -7,7 +7,7 @@ export const levelsData = [{
     "Mario Wings to the Sky",
     "Behind Chain Chomp’s Gate",
     "100 Coins Star"],
-    "image":"",
+    "image":"/bob.jpg",
  },{
     "level":"Whomp’s Fortress",
     "stars": ["Chip off Whomp’s Block",

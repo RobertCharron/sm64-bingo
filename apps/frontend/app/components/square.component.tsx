@@ -9,6 +9,7 @@ export enum SquareState {
 export type SquareProps = {
   id: string;
   levelTitle: string;
+  bgImg: string;
   star: string;
   state: 'Owned' | 'OpponentOwned' | 'Available';
   clickFunction: (id: string) => void;
@@ -19,6 +20,7 @@ export const Square: FunctionComponent<SquareProps> = ({
   star,
   state,
   clickFunction,
+  bgImg,
   id,
 }) => {
   const [squareState, setSquareState] = useState(state);
@@ -32,7 +34,11 @@ export const Square: FunctionComponent<SquareProps> = ({
     clickFunction(id);
   };
   return (
-    <div className={'boardSquare square' + squareState} onClick={handleClick}>
+    <div
+      className={'boardSquare square' + squareState}
+      onClick={handleClick}
+      style={{ backgroundImage: `url("${bgImg}")` }}
+    >
       <h3>{levelTitle}</h3>
       <h5>{star}</h5>
     </div>

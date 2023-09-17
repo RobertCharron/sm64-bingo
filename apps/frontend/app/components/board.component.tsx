@@ -120,6 +120,7 @@ export const Board: FunctionComponent<Props> = ({ levels }) => {
         row.squares.push({
           levelTitle: level.level,
           star,
+          bgImg: level.image,
           state: SquareState.Available,
           id: `${i}${j}`,
         });
@@ -151,6 +152,7 @@ export const Board: FunctionComponent<Props> = ({ levels }) => {
                     levelTitle={square.levelTitle}
                     star={square.star}
                     state={square.state}
+                    bgImg={square.bgImg}
                     id={square.id}
                     key={square.id}
                     clickFunction={updateBoardGameOnSquareClick}
