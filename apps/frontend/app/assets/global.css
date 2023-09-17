@@ -11,6 +11,7 @@ body {
   font-family: inherit;
   line-height: inherit;
   margin: 0;
+  padding: 2em;
 }
 h1,
 h2,
@@ -68,7 +69,7 @@ pre {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 768px;
+  max-width: 1024px;
   padding-bottom: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -397,4 +398,31 @@ summary svg {
   #middle-content {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+.boardRow{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex: 1;
+}
+.boardSquare{
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 20%;
+}
+.board {
+  width: 100%;
+  min-width: 100%;
+}
+.squareOwned {
+  border: 5px solid green;
+}
+.squareOpponentOwned {
+  border: 5px solid red;
+}
+.squareAvailable {
+  border: 5px solid black;
 }

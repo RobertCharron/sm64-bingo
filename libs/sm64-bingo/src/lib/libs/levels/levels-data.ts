@@ -6,7 +6,7 @@ export const levelsData = [{
     "Find the 8 Red Coins",
     "Mario Wings to the Sky",
     "Behind Chain Chomp’s Gate",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Whomp’s Fortress",
@@ -16,7 +16,7 @@ export const levelsData = [{
     "Red Coins on the Floating Isle",
     "Fall onto the Caged Island",
     "Blast Away the Wall",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Jolly Roger Bay",
@@ -26,7 +26,7 @@ export const levelsData = [{
     "Red Coins on the Ship Afloat",
     "Blast to the Stone Pillar",
     "Through the Jet Stream",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Cool, Cool Mountain",
@@ -36,7 +36,7 @@ export const levelsData = [{
     "Frosty Slide for 8 Red Coins",
     "Snowman’s Lost his Head",
     "Wall Kicks will Work",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Big Boo’s Haunt",
@@ -47,7 +47,7 @@ export const levelsData = [{
      "Seek the 8 Red Coins",
      "Big Boo’s Balcony",
      "Eye to Eye in the Secret Room",
-     "100 Coins Star",],
+     "100 Coins Star"],
     "image":"",
  },{
     "level":"Hazy Maze Cave",
@@ -57,7 +57,7 @@ export const levelsData = [{
     "Navigating the Toxic Maze",
     "A-Maze-ing Emergency Exit",
     "Watch for the Rolling Rocks",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Lethal Lava Land",
@@ -67,7 +67,7 @@ export const levelsData = [{
     "Red-Hot Log Rolling",
     "Hot-Foot-It into the Volcano",
     "Elevator Tour in the Volcano",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Shifting Sand Land",
@@ -77,7 +77,7 @@ export const levelsData = [{
     "Stand Tall on the Four Pillars",
     "Free Flying for 8 Red Coins",
     "Pyramid Puzzle",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Dire, Dire Docks",
@@ -87,7 +87,7 @@ export const levelsData = [{
     "Through the Jet Stream",
     "The Manta Ray’s Reward",
     "Collect the Caps",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Snowman’s Land",
@@ -97,7 +97,7 @@ export const levelsData = [{
     "Whirl from the Freezing Pond",
     "Shell Shreddin’ for 8 Red Coins",
     "Into the Igloo",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Wet-Dry World",
@@ -108,7 +108,7 @@ export const levelsData = [{
      "Express Elevators–Hurry Up!",
      "Go to Town for Red Coins",
      "Quick Race through Downtown",
-     "100 Coins Star",],
+     "100 Coins Star"],
     "image":"",
  },{
     "level":"Tall, Tall Mountain",
@@ -119,7 +119,7 @@ export const levelsData = [{
      "Mysterious Mountainside",
      "Breathtaking View from Bridge",
      "Blast to the Lonely Mushroom",
-     "100 Coins Star",],
+     "100 Coins Star"],
     "image":"",
  },{
     "level":"Tiny-Huge Island",
@@ -129,7 +129,7 @@ export const levelsData = [{
     "Five Itty Bitty Secrets",
     "Wiggler’s Red Coins",
     "Make Wiggler Squirm",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Tick Tock Clock",
@@ -140,7 +140,7 @@ export const levelsData = [{
      "Stomp on the Thwomp",
      "Timed Jumps on Moving Bars",
      "Stop Time for Red Coins",
-     "100 Coins Star",],
+     "100 Coins Star"],
     "image":"",
  },{
     "level":"Rainbow Ride",
@@ -150,7 +150,7 @@ export const levelsData = [{
     "Swingin’ in the Breeze",
     "Tricky Triangles!",
     "Somewhere over the Rainbow",
-    "100 Coins Star",],
+    "100 Coins Star"],
     "image":"",
  },{
     "level":"Castle Secret Stars",
