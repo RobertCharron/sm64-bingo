@@ -1,4 +1,4 @@
-import { FunctionComponent, MouseEventHandler, useState } from 'react';
+import { FunctionComponent, useState } from 'react';
 
 export enum SquareState {
   Available = 'Available',
